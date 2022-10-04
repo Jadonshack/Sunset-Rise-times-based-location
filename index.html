@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lesson 6 Assignment</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div>
+            <form>
+                <label for="latitude">Enter Latitude</label> <br>
+                <input id="latitude" type="text" name="latitude"> <br> <br>
+                <label for="longitude">Enter Longitude</label> <br>
+                <input id="longitude" type="text" name="latitude"> <br> <br>
+            </form>
+            <button id="btn" onclick="getCoordinates()">Get Solar Information</button>
+        </div>
+        <hr>
+        <h1>Sunrise/Sunset Information</h1>
+        <div id="informationDiv"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
